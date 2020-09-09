@@ -1,11 +1,15 @@
-.item .mail-svg {
-  fill: currentColor;
+.line {
+  border-bottom: 1px solid #eeeeee;
 }
-
 .main-nav {
   display: flex;
   align-items: center;
 }
+
+.item .mail-svg {
+  fill: currentColor;
+}
+
 .nav-site {
   display: flex;
   align-items: center;
@@ -23,13 +27,11 @@
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -47,7 +49,6 @@
   color: var(--primari-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
-
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -66,7 +67,6 @@
 .site-nav-w {
   display: block;
   padding-top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42;
@@ -93,7 +93,4 @@
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
-}
-.line {
-  border-bottom: 1px solid #eeeeee;
 }
