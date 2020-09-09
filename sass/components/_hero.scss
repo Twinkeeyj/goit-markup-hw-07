@@ -1,0 +1,50 @@
+.hero {
+  text-align: center;
+  max-width: 696px;
+  margin: auto;
+}
+.f-hero {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+  background-color: var(--primari-text-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../image/fon.jpg);
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-text {
+  min-width: 696px;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-begf-team);
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.button {
+  color: var(--primary-beg-color);
+  background-color: var(--title-text-color);
+  font-family: var(--font-famali);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
+}
