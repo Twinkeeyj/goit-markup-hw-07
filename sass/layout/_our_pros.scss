@@ -1,13 +1,18 @@
-.pros .item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: $primary-begf-team;
-  margin-bottom: 30px;
+.pros {
+  display: flex;
+
+  .item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $primary-begf-team;
+    margin-bottom: 30px;
+  }
 }
+
 .pros .item:nth-child(1)::before {
   background-image: url(../image/pros/ant.svg);
   background-size: 65px 70px;
@@ -39,9 +44,6 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: $primari-text-color;
-}
-.pros {
-  display: flex;
 }
 
 .pros .item {

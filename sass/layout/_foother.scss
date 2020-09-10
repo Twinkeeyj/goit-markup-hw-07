@@ -88,6 +88,9 @@
 .footer .social-svg {
   fill: $primary-beg-color;
 }
+.subscibe-bt .social-svg {
+  margin-left: 10px;
+}
 .footer .unity {
   margin-bottom: 20px;
 }
@@ -128,9 +131,7 @@
   display: inline-flex;
   border: none;
 }
-.subscibe-bt .social-svg {
-  margin-left: 10px;
-}
+
 .subscibe-forms {
   display: flex;
 }
