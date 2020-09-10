@@ -15,7 +15,7 @@
         "../sass/layout/_pop_up.scss",
         "../sass/layout/_button.scss",
         "../sass/layout/_social_networks.scss",
-        "../sass/pages/_portfolio.scss"
+        "../sass/layout/_portfolio.scss"
     ],
     "names": [],
     "file": "main.css"
