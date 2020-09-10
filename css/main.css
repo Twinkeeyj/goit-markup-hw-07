@@ -872,14 +872,11 @@ address {
 .meny {
   display: flex;
   justify-content: center;
+  margin-bottom: 56px;
 }
 
 .meny .item + .item {
   margin-left: 8px;
-}
-
-.meny {
-  margin-bottom: 56px;
 }
 
 .exm-work {
@@ -897,10 +894,6 @@ address {
 .item .foto {
   position: relative;
   overflow: hidden;
-}
-
-.f-1:hover {
-  transform: translateY(0%);
 }
 
 .fish {
@@ -923,6 +916,10 @@ address {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
+}
+
+.f-1:hover {
+  transform: translateY(0%);
 }
 
 .f-1:hover .fish {
