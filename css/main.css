@@ -61,7 +61,6 @@ img {
   margin-bottom: 50px;
 }
 
-/* ====header==== */
 .item .mail-svg {
   fill: currentColor;
 }
@@ -172,8 +171,6 @@ img {
   border-bottom: 1px solid #eeeeee;
 }
 
-/* ====end header==== */
-/* ====hero==== */
 .hero {
   /* display: flex; */
   text-align: center;
@@ -225,8 +222,6 @@ img {
   display: inline-block;
 }
 
-/* ====end hero==== */
-/* ====our pros==== */
 .pros .item::before {
   display: block;
   content: "";
@@ -296,11 +291,6 @@ img {
   padding-bottom: 94px;
 }
 
-/* .eddition {
-  padding: 0px;
-} */
-/* ====end our pros==== */
-/* ====examples of works==== */
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -344,158 +334,6 @@ img {
   padding-bottom: 26px;
 }
 
-/* ====end examples of works==== */
-/* ====team==== */
-.team-name {
-  padding-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
-.team-position {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  margin-bottom: 16px;
-  color: #757575;
-}
-
-.teambg {
-  background-color: #f5f4fa;
-  padding: 94px 0;
-}
-
-.team {
-  display: flex;
-}
-
-.team .item {
-  width: calc((100% - 90px) / 4);
-  margin-right: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.team .item:nth-child(4) {
-  margin-right: 0;
-}
-
-.team .item:nth-last-child(-n + 4) {
-  margin-bottom: 0px;
-}
-
-.teambg {
-  padding-bottom: 94px;
-}
-
-.team-frame {
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  background-color: #ffffff;
-  padding: 30px;
-  text-align: center;
-}
-
-.social-tree {
-  display: flex;
-}
-
-.teambg .social-a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: #ffffff;
-  width: 44px;
-  height: 44px;
-  transition-property: all;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-svg {
-  fill: #afb1b8;
-}
-
-.social-tree li:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-a:hover .social-svg {
-  fill: #ffffff;
-}
-
-.social-a:hover {
-  background-color: #2196f3;
-}
-
-/* ====end team==== */
-/* ====eegular customers==== */
-.container-title {
-  display: flex;
-}
-
-.container-title li:not(:last-child) {
-  margin-right: 30px;
-}
-
-.customers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 90px;
-  border-right: 1px solid;
-  border-bottom: 1px solid;
-  border-left: 1px solid;
-  border-top: 1px solid;
-  border-color: #afb1b8;
-  border-radius: 4px;
-  /* background-color: $accent-color; */
-}
-
-.customers-tree {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.customers-svg {
-  fill: #afb1b8;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.customers:hover .customers-svg {
-  fill: #2196f3;
-}
-
-.customers:hover {
-  border-color: #2196f3;
-}
-
-.container .title {
-  margin-bottom: 50px;
-}
-
-.e-mail {
-  width: 358px;
-  height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background-color: #2f303a;
-  color: #ffffff;
-  margin-right: 12px;
-}
-
-/* ====end regular customers==== */
-/* ====foother==== */
 .unity {
   font-weight: 700;
   font-size: 14px;
@@ -722,6 +560,156 @@ img {
   fill: #2196f3;
 }
 
+.team-name {
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+  color: #757575;
+}
+
+.teambg {
+  background-color: #f5f4fa;
+  padding: 94px 0;
+}
+
+.team {
+  display: flex;
+}
+
+.team .item {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team .item:nth-child(4) {
+  margin-right: 0;
+}
+
+.team .item:nth-last-child(-n + 4) {
+  margin-bottom: 0px;
+}
+
+.teambg {
+  padding-bottom: 94px;
+}
+
+.team-frame {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+}
+
+.social-tree {
+  display: flex;
+}
+
+.teambg .social-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  width: 44px;
+  height: 44px;
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-svg {
+  fill: #afb1b8;
+}
+
+.social-tree li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-a:hover .social-svg {
+  fill: #ffffff;
+}
+
+.social-a:hover {
+  background-color: #2196f3;
+}
+
+/* ====end team==== */
+/* ====eegular customers==== */
+.container-title {
+  display: flex;
+}
+
+.container-title li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.customers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-color: #afb1b8;
+  border-radius: 4px;
+  /* background-color: $accent-color; */
+}
+
+.customers-tree {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.customers-svg {
+  fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers:hover .customers-svg {
+  fill: #2196f3;
+}
+
+.customers:hover {
+  border-color: #2196f3;
+}
+
+.container .title {
+  margin-bottom: 50px;
+}
+
+.e-mail {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  color: #ffffff;
+  margin-right: 12px;
+}
+
+/* ====end regular customers==== */
+/* ====foother==== */
 /* =============== Звонки ======================== */
 .win-name {
   border-style: none;
