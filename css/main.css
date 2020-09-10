@@ -643,26 +643,33 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.win-name:hover {
+.win-name:hover, .win-name:focus {
   border-color: #2196f3;
 }
 
-.win-name:focus {
-  border-color: #2196f3;
+.win-name:focus ~ .nirvana,
+.win-name:hover ~ .nirvana {
+  fill: #2196f3;
+}
+
+.nirvana {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  display: block;
+  fill: #212121;
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 13px;
+  pointer-events: none;
 }
 
 .commit {
   height: 120px;
   padding: 12px 16px;
   resize: none;
-}
-
-.win-name:focus ~ .nirvana {
-  fill: #2196f3;
-}
-
-.win-name:hover ~ .nirvana {
-  fill: #2196f3;
 }
 
 .win-text {
@@ -704,6 +711,14 @@ address {
   padding-top: 25px;
 }
 
+.win-form:checked + .win-ok::before {
+  background-image: url(../image/ok.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 11px;
+  background-color: #2196f3;
+}
+
 .wind-name {
   position: relative;
   margin-bottom: 28px;
@@ -714,20 +729,6 @@ address {
   margin-bottom: 20px;
 }
 
-.nirvana {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  display: block;
-  fill: #212121;
-  transition-property: all;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 13px;
-  pointer-events: none;
-}
-
 .dynoro {
   position: absolute;
   top: -20px;
@@ -735,17 +736,7 @@ address {
   fill: currentColor;
 }
 
-.win-form:checked + .win-ok::before {
-  background-image: url(../image/ok.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 11px;
-  background-color: #2196f3;
-}
-
 .win-ok {
-  /* display: flex;
-  align-items: center; */
   margin-bottom: 30px;
   font-size: 14px;
 }
