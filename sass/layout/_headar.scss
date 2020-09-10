@@ -1,5 +1,6 @@
 .item .mail-svg {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 .main-nav {
@@ -91,8 +92,9 @@
     width: 48px;
     height: 4px;
     background-color: $title-text-color;
-    margin: 0 auto;
+    // margin: 0 auto;
     margin-top: 28px;
+    border-radius: 2px;
   }
 }
 
