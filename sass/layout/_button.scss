@@ -18,3 +18,31 @@
   display: inline-block;
   font-weight: 400;
 }
+// Портфоліо//
+.but {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $accent-color;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  display: inline-block;
+  border: 0px;
+
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $title-text-color;
+    color: $primary-beg-color;
+  }
+}
