@@ -684,25 +684,6 @@ address {
   margin-bottom: 30px;
 }
 
-.win-bt {
-  color: #ffffff;
-  background-color: #2196f3;
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.88;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  padding: 10px 32px;
-  display: inline-block;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  width: 200px;
-  height: 50px;
-  margin: auto;
-}
-
 .win-form {
   display: flex;
   flex-direction: column;
@@ -753,21 +734,6 @@ address {
   background: url(../image/ok.svg);
 }
 
-.button {
-  color: #ffffff;
-  background-color: #2196f3;
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  padding: 10px 32px;
-  display: inline-block;
-}
-
 .subscibe-bt {
   color: #ffffff;
   background-color: #2196f3;
@@ -780,8 +746,14 @@ address {
   letter-spacing: 0.06em;
   border-radius: 4px;
   padding: 10px 32px;
-  display: inline-flex;
-  border: none;
+}
+
+.win-form .subscibe-bt {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  width: 200px;
+  margin: auto;
+  display: inline-block;
+  font-weight: 400;
 }
 
 .social-a {
