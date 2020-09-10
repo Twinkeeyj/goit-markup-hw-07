@@ -406,7 +406,6 @@ address {
   border-top: 1px solid;
   border-color: #afb1b8;
   border-radius: 4px;
-  /* background-color: $accent-color; */
 }
 
 .customers-tree {
@@ -423,9 +422,6 @@ address {
 
 .customers:hover .customers-svg {
   fill: #2196f3;
-}
-
-.customers:hover {
   border-color: #2196f3;
 }
 
@@ -452,6 +448,7 @@ address {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .footer {
@@ -476,6 +473,10 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.address-ul:hover, .address-ul:focus {
+  color: #2196f3;
+}
+
 .address-kont {
   font-style: normal;
   font-weight: 400;
@@ -488,13 +489,7 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-kont:hover,
-.address-kont:focus {
-  color: #2196f3;
-}
-
-.address-ul:hover,
-.address-ul:focus {
+.address-kont:hover, .address-kont:focus {
   color: #2196f3;
 }
 
@@ -526,10 +521,6 @@ address {
 .footer-1 {
   width: 230px;
   margin-right: 70px;
-}
-
-.footer .unity {
-  margin-bottom: 20px;
 }
 
 .footer-soc {
@@ -576,7 +567,6 @@ address {
   display: flex;
 }
 
-/* order */
 .order {
   position: fixed;
   top: 0;
@@ -584,10 +574,6 @@ address {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  /* transition-property: all;
-  transition-duration: 50ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-timing-function: ease-in-out; */
   transform: translateY(0%);
   opacity: 1;
   visibility: visible;

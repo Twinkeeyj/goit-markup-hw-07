@@ -1,10 +1,10 @@
 .container-title {
   display: flex;
-}
-.container-title li:not(:last-child) {
-  margin-right: 30px;
-}
 
+  li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
 .customers {
   display: flex;
   justify-content: center;
@@ -17,7 +17,6 @@
   border-top: 1px solid;
   border-color: $color-svg;
   border-radius: 4px;
-  /* background-color: $accent-color; */
 }
 .customers-tree {
   padding-top: 94px;
@@ -32,8 +31,6 @@
 }
 .customers:hover .customers-svg {
   fill: $title-text-color;
-}
-.customers:hover {
   border-color: $title-text-color;
 }
 .container .title {
