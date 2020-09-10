@@ -129,12 +129,12 @@ img {
   margin-left: auto;
 }
 
-.kontakt.item {
+.kontakt .item {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.kontakt.item + .item {
+.kontakt .item + .item {
   margin-left: 50px;
 }
 
@@ -163,7 +163,7 @@ img {
   margin-left: 93px;
 }
 
-.site-nav.item:not(:last-child) {
+.site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
 
