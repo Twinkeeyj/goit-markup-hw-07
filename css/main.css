@@ -124,18 +124,18 @@ img {
   color: #2196f3;
 }
 
-.kontakt .item {
+.kontakt {
+  display: flex;
+  margin-left: auto;
+}
+
+.kontakt.item {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.kontakt .item + .item {
+.kontakt.item + .item {
   margin-left: 50px;
-}
-
-.kontakt {
-  display: flex;
-  margin-left: auto;
 }
 
 .site-nav-w {
@@ -163,7 +163,7 @@ img {
   margin-left: 93px;
 }
 
-.site-nav .item:not(:last-child) {
+.site-nav.item:not(:last-child) {
   margin-right: 50px;
 }
 
