@@ -77,17 +77,6 @@ img {
   align-items: center;
 }
 
-.logo {
-  color: #2196f3;
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.logo .logo-up {
-  color: #212121;
-}
-
 .site-nav-bot {
   display: block;
   padding-top: 32px;
@@ -455,10 +444,6 @@ address {
   background-color: #2f303a;
   padding-bottom: 60px;
   padding-top: 60px;
-}
-
-.logo-d {
-  color: #ffffff;
 }
 
 .address-ul {
@@ -924,5 +909,20 @@ address {
 
 .f-1:hover .fish {
   transform: translateY(0%);
+}
+
+.logo {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo .logo-d {
+  color: #ffffff;
+}
+
+.logo .logo-up {
+  color: #212121;
 }
 /*# sourceMappingURL=main.css.map */
