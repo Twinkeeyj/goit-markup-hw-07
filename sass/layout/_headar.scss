@@ -6,6 +6,7 @@
 .main-nav {
   display: flex;
   align-items: center;
+  height: 84px;
 }
 .nav-site {
   display: flex;
@@ -53,6 +54,9 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
+  display: inline-flex;
+  align-items: center;
+
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -62,10 +66,11 @@
     color: $title-text-color;
   }
 }
-
+address {
+  margin-left: auto;
+}
 .kontakt {
   display: flex;
-  margin-left: auto;
 
   .item {
     padding-top: 32px;
