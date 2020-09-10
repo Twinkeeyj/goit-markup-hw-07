@@ -500,9 +500,6 @@ address {
 
 .address .item {
   display: flex;
-}
-
-.address .item {
   margin-bottom: 9px;
 }
 
@@ -514,7 +511,7 @@ address {
   display: flex;
 }
 
-.social-tree li:not(:last-child) {
+.social-treeli:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -581,7 +578,7 @@ address {
   transition: all 250ms linear;
 }
 
-.order.is-hidden {
+.order .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
