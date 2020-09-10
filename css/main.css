@@ -369,10 +369,6 @@ address {
   margin-bottom: 0px;
 }
 
-.teambg {
-  padding-bottom: 94px;
-}
-
 .team-frame {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -830,7 +826,7 @@ address {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-a:hover {
+.footer .social-a:hover {
   background-color: #2196f3;
 }
 
@@ -846,15 +842,15 @@ address {
   background-color: #ffffff;
 }
 
-.social-a:hover .social-svg {
+.teambg .social-a:hover .social-svg {
   fill: #ffffff;
+}
+
+.teambg .social-a:hover {
+  background-color: #2196f3;
 }
 
 .social-svg {
   fill: #afb1b8;
-}
-
-.social-a:hover {
-  background-color: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */

@@ -11,12 +11,11 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer .social-a {
   background-color: rgba(255, 255, 255, 0.1);
-}
-.social-a:hover {
-  background-color: $title-text-color;
+  &:hover {
+    background-color: $title-text-color;
+  }
 }
 .footer .social-svg {
   fill: $primary-beg-color;
@@ -27,14 +26,13 @@
 
 .teambg .social-a {
   background-color: $primary-beg-color;
+  &:hover .social-svg {
+    fill: $primary-beg-color;
+  }
+  &:hover {
+    background-color: $title-text-color;
+  }
 }
-.social-a:hover .social-svg {
-  fill: $primary-beg-color;
-}
-
 .social-svg {
   fill: $color-svg;
-}
-.social-a:hover {
-  background-color: $title-text-color;
 }
