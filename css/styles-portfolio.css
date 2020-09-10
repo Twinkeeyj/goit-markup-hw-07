@@ -386,51 +386,5 @@ img {
 .second-floor {
   display: flex;
 }
-.subscribe {
-  margin-left: 93px;
-  padding-top: 12px;
-}
-
-.subscribe-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-beg-color);
-  margin-bottom: 20px;
-}
-.subscibe-bt {
-  color: var(--primary-beg-color);
-  background-color: var(--title-text-color);
-  font-family: var(--font-famali);
-  font-weight: 700;
-  font-size: 16px;
-  /* line-height: 1.88; */
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  padding: 10px 32px;
-  display: inline-flex;
-  border: none;
-}
-.subscibe-bt .social-svg {
-  margin-left: 10px;
-}
-.subscibe-forms {
-  display: flex;
-}
-.e-mail {
-  width: 358px;
-  height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background-color: var(--primary-begf-color);
-  color: var(--primary-beg-color);
-  margin-right: 12px;
-}
 
 /* ====end foother==== */
