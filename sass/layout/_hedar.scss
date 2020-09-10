@@ -15,10 +15,12 @@
   font-family: $font-famali-logo;
   font-size: 26px;
   line-height: 1.19;
+
+  & .logo-up {
+    color: $accent-color;
+  }
 }
-.logo-up {
-  color: $accent-color;
-}
+
 .site-nav-bot {
   display: block;
   padding-top: 32px;
@@ -33,11 +35,13 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  :focus {
+    color: $title-text-color;
+  }
 }
-.site-nav-bot:hover,
-.site-nav-bot:focus {
-  color: $title-text-color;
-}
+
 .kontaсt-inf {
   font-style: normal;
   font-weight: 500;
@@ -51,7 +55,13 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  :focus {
+    color: $title-text-color;
+  }
 }
+
 .kontakt .item {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -83,10 +93,6 @@
   margin-top: 28px;
 }
 
-.kontaсt-inf:hover,
-.kontaсt-inf:focus {
-  color: $title-text-color;
-}
 .site-nav {
   display: flex;
   margin-left: 93px;

@@ -82,7 +82,7 @@ img {
   line-height: 1.19;
 }
 
-.logo-up {
+.logo .logo-up {
   color: #212121;
 }
 
@@ -101,7 +101,7 @@ img {
 }
 
 .site-nav-bot:hover,
-.site-nav-bot:focus {
+.site-nav-bot :focus {
   color: #2196f3;
 }
 
@@ -117,6 +117,11 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.kontaсt-inf:hover,
+.kontaсt-inf :focus {
+  color: #2196f3;
 }
 
 .kontakt .item {
@@ -151,11 +156,6 @@ img {
   background-color: #2196f3;
   margin: 0 auto;
   margin-top: 28px;
-}
-
-.kontaсt-inf:hover,
-.kontaсt-inf:focus {
-  color: #2196f3;
 }
 
 .site-nav {
