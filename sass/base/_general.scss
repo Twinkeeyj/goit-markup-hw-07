@@ -1,7 +1,7 @@
 body {
-  color: var(--accent-color);
-  background-color: var(--primary-beg-color);
-  font-family: var(--font-famali);
+  color: $accent-color;
+  background-color: $primary-beg-color;
+  font-family: $font-famali;
   letter-spacing: 0.03em;
 }
 html {

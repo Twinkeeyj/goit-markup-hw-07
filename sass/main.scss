@@ -1,18 +1,7 @@
+@import "./utils/variables";
 @import "./base/general";
-:root  {
-  --primari-text-color: #757575;
-  --title-text-color: #2196f3;
-  --accent-color: #212121;
-  --primary-beg-color: #ffffff;
-  --primary-begf-color: #2f303a;
-  --primary-begf-team: #f5f4fa;
-  --font-famali: Roboto, sans-serif;
-  --font-famali-logo: Raleway, sans-serif;
-  --color-svg: #afb1b8;
-}
 
 /* ====header==== */
-
 .item .mail-svg {
   fill: currentColor;
 }
@@ -26,13 +15,13 @@
   align-items: center;
 }
 .logo {
-  color: var(--title-text-color);
-  font-family: var(--font-famali-logo);
+  color: $title-text-color;
+  font-family: $font-famali-logo;
   font-size: 26px;
   line-height: 1.19;
 }
 .logo-up {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .site-nav-bot {
   display: block;
@@ -43,7 +32,7 @@
   font-size: 14px;
   line-height: 1.42;
   letter-spacing: 0.02em;
-  color: var(--accent-color);
+  color: $accent-color;
 
   transition-property: color;
   transition-duration: 250ms;
@@ -51,7 +40,7 @@
 }
 .site-nav-bot:hover,
 .site-nav-bot:focus {
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .kontaсt-inf {
   font-style: normal;
@@ -59,7 +48,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primari-text-color);
+  color: $primari-text-color;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -86,21 +75,21 @@
   font-size: 14px;
   line-height: 1.42;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .site-nav-w::after {
   display: block;
   content: "";
   width: 48px;
   height: 4px;
-  background-color: var(--title-text-color);
+  background-color: $title-text-color;
   margin: 0 auto;
   margin-top: 28px;
 }
 
 .kontaсt-inf:hover,
 .kontaсt-inf:focus {
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .site-nav {
   display: flex;
@@ -133,7 +122,7 @@
   justify-content: center;
   margin: auto;
 
-  background-color: var(--primari-text-color);
+  background-color: $primari-text-color;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -149,14 +138,14 @@
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--primary-begf-team);
+  color: $primary-begf-team;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
 .button {
-  color: var(--primary-beg-color);
-  background-color: var(--title-text-color);
-  font-family: var(--font-famali);
+  color: $primary-beg-color;
+  background-color: $title-text-color;
+  font-family: $font-famali;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -177,7 +166,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--primary-begf-team);
+  background-color: $primary-begf-team;
   margin-bottom: 30px;
 }
 .pros .item:nth-child(1)::before {
@@ -203,14 +192,14 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accent-color;
   text-transform: uppercase;
 }
 .pros-explanation {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primari-text-color);
+  color: $primari-text-color;
 }
 .pros {
   display: flex;
@@ -242,7 +231,7 @@
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .examples {
@@ -266,7 +255,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.33;
-  color: var(--primary-beg-color);
+  color: $primary-beg-color;
   background-color: rgba(47, 48, 58, 0.8);
   text-align: center;
 
@@ -284,7 +273,7 @@
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .team-position {
   font-weight: 400;
@@ -293,10 +282,10 @@
   letter-spacing: 0.03em;
   margin-bottom: 16px;
 
-  color: var(--primari-text-color);
+  color: $primari-text-color;
 }
 .teambg {
-  background-color: var(--primary-begf-team);
+  background-color: $primary-begf-team;
   padding: 94px 0;
 }
 .team {
@@ -322,7 +311,7 @@
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-  background-color: var(--primary-beg-color);
+  background-color: $primary-beg-color;
   padding: 30px;
   text-align: center;
 }
@@ -334,7 +323,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: var(--primary-beg-color);
+  background-color: $primary-beg-color;
   width: 44px;
   height: 44px;
 
@@ -343,16 +332,16 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-svg {
-  fill: var(--color-svg);
+  fill: $color-svg;
 }
 .social-tree li:not(:last-child) {
   margin-right: 10px;
 }
 .social-a:hover .social-svg {
-  fill: var(--primary-beg-color);
+  fill: $primary-beg-color;
 }
 .social-a:hover {
-  background-color: var(--title-text-color);
+  background-color: $title-text-color;
 }
 
 /* ====end team==== */
@@ -375,26 +364,26 @@
   border-bottom: 1px solid;
   border-left: 1px solid;
   border-top: 1px solid;
-  border-color: var(--color-svg);
+  border-color: $color-svg;
   border-radius: 4px;
-  /* background-color: var(--accent-color); */
+  /* background-color: $accent-color; */
 }
 .customers-tree {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .customers-svg {
-  fill: var(--color-svg);
+  fill: $color-svg;
 
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers:hover .customers-svg {
-  fill: var(--title-text-color);
+  fill: $title-text-color;
 }
 .customers:hover {
-  border-color: var(--title-text-color);
+  border-color: $title-text-color;
 }
 .container .title {
   margin-bottom: 50px;
@@ -406,8 +395,8 @@
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: var(--primary-begf-color);
-  color: var(--primary-beg-color);
+  background-color: $primary-begf-color;
+  color: $primary-beg-color;
   margin-right: 12px;
 }
 
@@ -418,16 +407,16 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--primary-beg-color);
+  color: $primary-beg-color;
   text-transform: uppercase;
 }
 .footer {
-  background-color: var(--primary-begf-color);
+  background-color: $primary-begf-color;
   padding-bottom: 60px;
   padding-top: 60px;
 }
 .logo-d {
-  color: var(--primary-beg-color);
+  color: $primary-beg-color;
 }
 .address-ul {
   font-style: normal;
@@ -435,7 +424,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-beg-color);
+  color: $primary-beg-color;
 
   transition-property: color;
   transition-duration: 250ms;
@@ -455,11 +444,11 @@
 }
 .address-kont:hover,
 .address-kont:focus {
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .address-ul:hover,
 .address-ul:focus {
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .footer-logo {
   display: flex;
@@ -498,10 +487,10 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-a:hover {
-  background-color: var(--title-text-color);
+  background-color: $title-text-color;
 }
 .footer .social-svg {
-  fill: var(--primary-beg-color);
+  fill: $primary-beg-color;
 }
 .footer .unity {
   margin-bottom: 20px;
@@ -525,13 +514,13 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-beg-color);
+  color: $primary-beg-color;
   margin-bottom: 20px;
 }
 .subscibe-bt {
-  color: var(--primary-beg-color);
-  background-color: var(--title-text-color);
-  font-family: var(--font-famali);
+  color: $primary-beg-color;
+  background-color: $title-text-color;
+  font-family: $font-famali;
   font-weight: 700;
   font-size: 16px;
   /* line-height: 1.88; */
@@ -606,7 +595,7 @@
 .but-cl {
   width: 30px;
   height: 30px;
-  background-color: var(--primary-beg-color);
+  background-color: $primary-beg-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   position: absolute;
@@ -618,7 +607,7 @@
 }
 
 .but-cl:hover {
-  fill: var(--title-text-color);
+  fill: $title-text-color;
 }
 
 /* =============== Звонки ======================== */
@@ -636,17 +625,17 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .win-name:hover {
-  border-color: var(--title-text-color);
+  border-color: $title-text-color;
 }
 .win-name:focus {
-  border-color: var(--title-text-color);
+  border-color: $title-text-color;
 }
 
 .win-name:focus ~ .nirvana {
-  fill: var(--title-text-color);
+  fill: $title-text-color;
 }
 .win-name:hover ~ .nirvana {
-  fill: var(--title-text-color);
+  fill: $title-text-color;
 }
 .win-mail {
   width: 448px;
@@ -661,16 +650,16 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .win-mail:focus {
-  border-color: var(--title-text-color);
+  border-color: $title-text-color;
 }
 .win-mail:focus ~ .nirvana {
-  fill: var(--title-text-color);
+  fill: $title-text-color;
 }
 .win-mail:hover {
-  border-color: var(--title-text-color);
+  border-color: $title-text-color;
 }
 .win-mail:hover ~ .nirvana {
-  fill: var(--title-text-color);
+  fill: $title-text-color;
 }
 
 .win-tell {
@@ -686,16 +675,16 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .win-tell:focus {
-  border-color: var(--title-text-color);
+  border-color: $title-text-color;
 }
 .win-tell:focus ~ .nirvana {
-  fill: var(--title-text-color);
+  fill: $title-text-color;
 }
 .win-tell:hover {
-  border-color: var(--title-text-color);
+  border-color: $title-text-color;
 }
 .win-tell:hover ~ .nirvana {
-  fill: var(--title-text-color);
+  fill: $title-text-color;
 }
 
 .commit {
@@ -713,7 +702,7 @@
 }
 .commit:focus,
 .commit:hover {
-  border-color: var(--title-text-color);
+  border-color: $title-text-color;
 }
 .win-text {
   font-weight: 700;
@@ -721,15 +710,15 @@
   line-height: 0.86;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accent-color;
   transform: translateY(100%);
   margin-top: 18px;
   margin-bottom: 30px;
 }
 .win-bt {
-  color: var(--primary-beg-color);
-  background-color: var(--title-text-color);
-  font-family: var(--font-famali);
+  color: $primary-beg-color;
+  background-color: $title-text-color;
+  font-family: $font-famali;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -766,7 +755,7 @@
   transform: translateY(-50%);
   left: 0;
   display: block;
-  fill: var(--accent-color);
+  fill: $accent-color;
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -785,7 +774,7 @@
   background-position: 50% 50%;
   background-size: 11px;
 
-  background-color: var(--title-text-color);
+  background-color: $title-text-color;
 }
 .win-ok {
   /* display: flex;
@@ -798,7 +787,7 @@
   content: "";
   width: 16px;
   height: 15px;
-  background: var(--primary-beg-color);
+  background: $primary-beg-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
